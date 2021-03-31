@@ -1,0 +1,25 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "magiclysm_chill_pill",
+    "name": "Magiclysm Chill Pill",
+    "authors": [ "Lightwave" ],
+    "description": "Removes overly dangerous magiclysm wildlife.",
+    "category": "monster_exclude",
+    "dependencies": [ "dda", "magiclysm" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+      "mon_owlbear",
+      "mon_bulette",
+      "mon_winter_wolf",
+      "mon_troll",
+      "mon_claygolem",
+      "mon_stonegolem",
+      "mon_irongolem",
+      "mon_leprechaun",
+      "mon_yulecat",
+    ]
+  }
+]
